@@ -36,7 +36,7 @@ while True:
 # assigning a variable which will hold the highest number in created list
 # assigning 0 as the highest number
 
-largest_num = 0
+largest_num = number_list[0]
 
 for num in number_list:
     if num > largest_num:
@@ -77,8 +77,8 @@ while True:
             except ValueError:
                 print("Valid input number is required. Try again")
                 number_list.clear()
-                
-        largest_num = 0
+
+        largest_num = number_list[0]
 
         for num in number_list:
             if num > largest_num:
