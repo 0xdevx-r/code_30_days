@@ -16,6 +16,7 @@ student["details"]["city"] = "Jaipur"
 print(student['details']['age'])
 print(student["details"]["city"])
 
+#version 2
 
 student = {
     "name": "Alex",
