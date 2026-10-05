@@ -8,6 +8,7 @@
     Do not use a loop
     Do not print inside the function'''
 
+# creating the nested dictionary
 
 students = {
     "student1": {
@@ -27,5 +28,9 @@ students = {
     }
 }
 
-# defifning the function
+# defining the function for updating the data
 
+def update_student_course(students, student_id, course):
+    students[student_id]["course"] = course
+    return students
+print(update_student_course(students, "student3","Java"))
